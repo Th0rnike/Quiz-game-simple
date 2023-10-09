@@ -25,3 +25,24 @@ body{
 #result{
     font-size: 90px;
 }
+    /* Style for the retry button */
+/* Style for the anchor element */
+a {
+    text-decoration: none; /* Remove underlines */
+    color: #3498db; /* Set the text color */
+    font-weight: bold; /* Make the text bold */
+    padding: 10px 20px; /* Add padding for spacing */
+    border: 2px solid #3498db; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    text-align: center;
+    display: inline-block; /* Make it a block-level element */
+    background-color: #fff; /* Set background color */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transitions for hover effect */
+
+    /* Hover styles */
+    &:hover {
+        background-color: #3498db; /* Change background color on hover */
+        color: #fff; /* Change text color on hover */
+    }
+}
+
