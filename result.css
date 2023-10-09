@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;font-family: 'Orbitron', sans-serif;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 7% 20%;
+    color: white;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#result{
+    font-size: 90px;
+}

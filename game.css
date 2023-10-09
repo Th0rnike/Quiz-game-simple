@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;font-family: 'Orbitron', sans-serif;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 7% 20%;
+}
+
+.information{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#progress-bar{
+    width: 0%;
+    height: 1.4em;
+    border: 1px solid #4CAF50;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+#progress-bar::-webkit-progress-value {
+    background-color: rgb(76, 175, 80);
+    border-radius: 5px;
+}
+
+#progress-bar::-webkit-progress-bar {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.question-number{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.question{
+    color: white;
+    margin: 3%;
+}
+
+.choice-container{
+    color: white;
+    background-color: rgb(45, 45, 246);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5%;
+    margin: 5px;
+    padding: 2%;
+    cursor: pointer;
+}
+
+.choice-container:hover{
+    box-shadow: -1px -1px 24px 0px rgba(45,45,246,0.75);
+    -webkit-box-shadow: -1px -1px 24px 0px rgba(45,45,246,0.75);
+    -moz-box-shadow: -1px -1px 24px 0px rgba(45,45,246,0.75);
+    transform: scale(1.05);
+    transition-duration: 500ms;
+}
+
+.final{
+    color: white;
+}
+
+.correct{
+    background-color: #4CAF50;
+    box-shadow: -1px -1px 24px 0px rgba(76, 175, 80, 0.75);
+    -webkit-box-shadow: -1px -1px 24px 0px rgba(76, 175, 80, 0.75);
+    -moz-box-shadow: -1px -1px 24px 0px rgba(76, 175, 80, 0.75);
+}
+
+.wrong{
+    background-color: rgba(175, 76, 76, 0.75);
+    box-shadow: -1px -1px 24px 0px rgba(175, 76, 76, 0.75);
+    -webkit-box-shadow: -1px -1px 24px 0px rgba(175, 76, 76, 0.75);
+    -moz-box-shadow: -1px -1px 24px 0px rgba(175, 76, 76, 0.75);
+}
+
+.correct:hover{
+    background-color: #4CAF50;
+    box-shadow: -1px -1px 24px 0px rgba(76, 175, 80, 0.75);
+    -webkit-box-shadow: -1px -1px 24px 0px rgba(76, 175, 80, 0.75);
+    -moz-box-shadow: -1px -1px 24px 0px rgba(76, 175, 80, 0.75);
+    transform: scale(1.05);
+    transition-duration: 500ms;
+}
+
+.wrong:hover{
+    background-color: rgba(175, 76, 76, 0.75);
+    box-shadow: -1px -1px 24px 0px rgba(175, 76, 76, 0.75);
+    -webkit-box-shadow: -1px -1px 24px 0px rgba(175, 76, 76, 0.75);
+    -moz-box-shadow: -1px -1px 24px 0px rgba(175, 76, 76, 0.75);
+    transform: scale(1.05);
+    transition-duration: 500ms;
+}
